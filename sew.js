@@ -144,7 +144,7 @@ async function sewQueen () {
         if (Raviya.AUTOBIO == 'true') {
             var timezone_bio = await Pach.timezone(CdSew.user.jid)
             var date_bio = await Pach.datebio(Raviya.LANG)
-            const biography = '📅 ' + date_bio + '\n⌚ ' + timezone_bio + '\n ' + Raviya.ABT +' \n ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ'
+            const biography = '📅 ' + date_bio + '\n⌚ ' + timezone_bio + '\n ' + Raviya.ABT
             await CdSew.setStatus(biography)
         }
     }, 7890);
